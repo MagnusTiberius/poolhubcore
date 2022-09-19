@@ -6,15 +6,31 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "build": "webpack -p"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "react-router",
+    "ejs",
+    "express",
+    "history",
+    "react-dom",
+    "babel",
+    "webpack"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "ejs": "2.4.2",
+    "express": "4.14.0",
+    "history": "3.0.0",
+    "react": "15.2.1",
+    "react-dom": "15.2.1",
+    "react-router": "2.5.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "webpack-cli": "^4.10.0"
   }
 }
