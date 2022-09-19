@@ -6,6 +6,13 @@ https://www.facebook.com/groups/1451426705325303
 http://www.poolhubcore.com
 
 
+# Run
+
+To run development version
+
+### `npm run dev`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
